@@ -25,7 +25,7 @@ const Introduction = () => {
                      </p>
                      <p></p>
 
-                     <div className="row">
+                     <div className="icons">
 
             <div className="round">
             <a href="tel:+918335820651"><img src={whatsapp} alt={whatsapp} height={'35px'} ></img></a>
@@ -37,7 +37,7 @@ const Introduction = () => {
             </div>
 
             <div className="round">
-            <a href="https:/siddhant.paral@gmail.com" target="_blank" rel="noopener noreferrer"><img src={mail} alt={mail} height={'35px'} ></img></a>
+            <a href="mailto:https:/siddhant.paral@gmail.com" target="_blank" rel="noopener noreferrer"><img src={mail} alt={mail} height={'35px'} ></img></a>
             </div>
 
             </div>
@@ -45,15 +45,15 @@ const Introduction = () => {
                 </div>
                 
                 <div className="hcard">
-                    <div className="photo">
+                    
                     
 
                         <div className="image">
-                            <img src={Self} alt={Self} height={'600px'} width={'400px'} ></img>
+                            <img src={Self} alt={Self}  ></img>
                         </div>
 
                     
-                    </div>
+                    
                 </div>
                 
                 

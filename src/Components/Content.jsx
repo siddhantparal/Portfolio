@@ -7,6 +7,7 @@ import Other from '../images/Other.jpg';
 import { Link } from 'react-router-dom';
 
 
+
 const Content = () => {
     return (
         <>
@@ -26,9 +27,10 @@ const Content = () => {
                         
                         <div className="card"><Link to={'/Street'}>
                                                         
-                                <img src={Street} alt={Street} height={'450px'} width={'100%'} ></img>
+                                <img src={Street} alt={Street}></img>
                             
                             <div class='text-on-image'>
+                            
                                 <h5> STREET </h5>
              
                             </div>
@@ -37,7 +39,7 @@ const Content = () => {
                         
                         <div className="card"><Link to={'/Landscape'}>
                                                         
-                                <img src={Landscape} alt={Landscape} height={'450px'} width={'100%'} ></img>
+                                <img src={Landscape} alt={Landscape}></img>
                             
                             <div class='text-on-image'>
                                 <h5> LANDSCAPE </h5>
@@ -48,7 +50,7 @@ const Content = () => {
 
                         <div className="card"><Link to={'/Product'}>
                                                         
-                                <img src={Product} alt={Product} height={'450px'} width={'100%'} ></img>
+                                <img src={Product} alt={Product}></img>
                             
                             <div class='text-on-image'>
                                 <h5> PRODUCT </h5>
@@ -59,7 +61,7 @@ const Content = () => {
 
                         <div className="card"><Link to={'/Other'}>
                                                         
-                                <img src={Other} alt={Other} height={'450px'} width={'100%'} ></img>
+                                <img src={Other} alt={Other}></img>
                             
                             <div class='text-on-image'>
                                 <h5> OTHERS </h5>
