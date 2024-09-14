@@ -15,23 +15,23 @@ const Landscape = () => {
         <div className="photos">
             
             <div className="Frame">
-            <img src={Adyapith} alt={Adyapith} height={'450px'}></img>
+            <img src={Adyapith} alt={Adyapith} ></img>
             </div>
 
             <div className="Frame">
-            <img src={Silk} alt={Silk} height={'450px'}></img>
+            <img src={Silk} alt={Silk} ></img>
             </div>
 
             <div className="Frame">
-            <img src={Love} alt={Love} height={'450px'} ></img>
+            <img src={Love} alt={Love}  ></img>
             </div>
 
             <div className="Frame">
-            <img src={Valley} alt={Valley} height={'450px'}></img>
+            <img src={Valley} alt={Valley} ></img>
             </div>
 
             <div className="Frame">
-            <img src={Road} alt={Road} height={'450px'}></img>
+            <img src={Road} alt={Road} ></img>
             </div>
 
         </div>
