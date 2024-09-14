@@ -1,11 +1,8 @@
-// src/App.js
-
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './index.css';
 import Navbar from './Components/Navbar';
 import Introduction from "./Components/Introduction"
-//import PhotoGallery from "./Components/PhotoGallery"
 import Content from "./Components/Content"
 
 import Landscape from "./Components/Landscape"
