@@ -37,7 +37,7 @@ const Introduction = () => {
             </div>
 
             <div className="round">
-            <a href="mailto:https:/siddhant.paral@gmail.com" target="_blank" rel="noopener noreferrer"><img src={mail} alt={mail} height={'35px'} ></img></a>
+            <a href="mailto:siddhant.paral@gmail.com" target="_blank" rel="noopener noreferrer"><img src={mail} alt={mail} height={'35px'} ></img></a>
             </div>
 
             </div>
